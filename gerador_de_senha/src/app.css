@@ -14,10 +14,10 @@ body {
 
 /* Container principal do gerador de senha */
 .container {
-    background: #ffffff;
+    background: #7aa3af;
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    box-shadow: 0 6px 20px rgba(223, 8, 8, 0.1);
+    padding: 20px;
     text-align: center;
     width: 350px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -25,16 +25,16 @@ body {
 
 /* Efeito de hover no container */
 .container:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    box-shadow: 0 100px 30px rgba(235, 22, 22, 0.2);
 }
 
 /* Estilo para o título */
 h1 {
-    color: #333;
-    font-size: 28px;
-    margin-bottom: 25px;
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: #473f3f;
+    font-size: 35px;
+    margin-bottom: 20px;
+    transition: color 0.1s ease-in-out, transform 0.3s ease-in-out;
 }
 
 /* Efeito de hover no título */

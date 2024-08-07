@@ -46,7 +46,7 @@ function App() {
   // Renderiza a interface do usuário
   return (
     <div className="container">
-      <h1>Nada de Aposta</h1>
+      <h1>Gerador de senha</h1>
       {/* Botão para gerar uma nova senha */}
       <button className="generate-btn" onClick={generate}>Gerar!</button>
       {/* Botão para copiar a senha para a área de transferência */}
