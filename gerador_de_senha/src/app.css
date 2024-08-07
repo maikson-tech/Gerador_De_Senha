@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/originals/c5/77/97/c57797b9eecb618a43fc578972a80fc6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container principal do gerador de senha */
+.container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Efeito de hover no container */
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o título */
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 25px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Efeito de hover no título */
+.container:hover h1 {
+    color: #007bff;
+    transform: translateY(-5px);
+}
+
+/* Estilo comum para botões */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin: 10px 5px;
+    border: none;
+    color: #fff;
+}
+
+/* Estilo para o botão de gerar senha */
+.generate-btn {
+    background-color: #007bff;
+}
+
+/* Estilo para o botão de copiar senha */
+.copy-btn {
+    background-color: #28a745;
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito ao pressionar os botões */
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo ao passar o mouse sobre o botão de gerar senha */
+.generate-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo ao passar o mouse sobre o botão de copiar senha */
+.copy-btn:hover {
+    background-color: #218838;
+}
+background-image: url('https://th.bing.com/th/id/OIP.afrqa2Rh5tbeotNdoTNfkAHaE8?rs=1&pid=ImgDetMain');
+
+
+/* Estilo para a senha gerada */
+.password-display {
+    font-size: 18px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s;
+}
+
+    background-image: url('https://th.bing.com/th/id/OIP.afrqa2Rh5tbeotNdoTNfkAHaE8?rs=1&pid=ImgDetMain');
+
+
+
+     
+
+   
+   
+    
+ 
+
+ 
